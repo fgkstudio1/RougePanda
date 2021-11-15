@@ -427,8 +427,16 @@ header {
   }
 }
 /* Vaccine */
-.vaccine {
-  background: #161616;
+.vaccine .vaccine-image {
+  width: 70%;
+  margin: 0 auto;
+}
+.vaccine p {
+  font-size: 26px;
+  font-family: "baumans";
+}
+.vaccine-btm {
+  margin-bottom: 50px;
 }
 .tree {
   white-space: nowrap;
@@ -661,10 +669,17 @@ right connector from last child*/
   line-height: 30px;
 }
 /* Couple */
-.couple .container {
-  padding: 0 200px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+.couple {
+  padding: 60px 0;
+}
+.couple .container .row {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.couple .container img {
+  width: 100%;
 }
 .couple .container a {
   display: flex;
@@ -684,6 +699,10 @@ right connector from last child*/
 .couple .container .box_container p {
   padding-top: 45px;
   padding-left: 20px;
+}
+.couple .team-image-wrapper {
+  border: 4px solid white;
+  border-radius: 4px;
 }
 @media (max-width: 992px) {
   .couple .container {
@@ -758,10 +777,11 @@ right connector from last child*/
 /* footer */
 footer .container {
   padding: 10px 10px;
+  overflow: hidden;
 }
 footer .container .bi-twitter::before {
   color: #fff;
-  font-size: 24px;
+  /* font-size: 24px; */
   padding-top: 20px;
 }
 footer .container .bi-discord::before {
@@ -786,7 +806,7 @@ footer .footer_btn:hover {
   border-color: white;
 }
 /* swiper */
-swiper {
+.swiper {
   width: 100%;
   height: 100%;
 }
@@ -834,23 +854,62 @@ swiper {
 .community_giveways .pt-40 {
   padding-top: 40px;
 }
+.giveway_container .media img {
+  width: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.giveway_container .media {
+  margin: 30px 0;
+}
+.giveway_container .divider {
+  width: 100%;
+  height: 500px;
+}
+@media (max-width: 768px) {
+  .giveway_container .media {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
 
+.text {
+  font-family: "Baumans";
+  font-size: 18px;
+}
 /* casino */
 .casino {
   padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #161616;
 }
 .casino .h3_heading {
   padding-top: 0px;
 }
-
+.casino-list li {
+  font-size: 20px;
+  font-family: "Baumans";
+}
+.casino-btm {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.casino-btm p {
+  font-family: "Baumans";
+}
 .img_container img {
   width: 100%;
 }
 
 /* Scroll anim section */
+html,
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 .top_section,
 .bottom_section,
