@@ -939,7 +939,7 @@ body {
 }
 .panda_div {
   background-color: #000;
-  height: 1200px;
+  height: 800px;
   border-radius: 6.25rem 6.25rem 0 0;
   margin-top: -90px;
   position: relative;
@@ -1030,5 +1030,8 @@ body {
   }
   .top_div .container .h3_heading {
     padding-top: 10px;
+  }
+  .panda_div {
+    height: 500px;
   }
 }
