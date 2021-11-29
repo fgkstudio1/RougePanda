@@ -673,7 +673,6 @@ right connector from last child*/
   padding: 60px 0;
 }
 .couple .container .row {
-  max-width: 800px;
   width: 100%;
   margin: 0 auto;
 }
@@ -699,6 +698,13 @@ right connector from last child*/
 .couple .container .box_container p {
   padding-top: 45px;
   padding-left: 20px;
+}
+.couple .name {
+  font-size: 26px;
+  font-weight: bold;
+}
+.couple .post {
+  font-size: 16px;
 }
 .couple .team-image-wrapper {
   border: 4px solid white;
@@ -1030,5 +1036,24 @@ body {
   }
   .panda_div {
     height: 600px;
+  }
+}
+
+.qna .row {
+  flex-direction: row;
+}
+.qna .row p {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .qna .row {
+    flex-direction: column-reverse;
+  }
+  .qna .row img {
+    max-width: 200px;
+  }
+  .qna .row2 {
+    flex-direction: column;
   }
 }
