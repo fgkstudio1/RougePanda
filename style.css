@@ -272,6 +272,22 @@ header {
   padding: 14px 50px;
   font-family: "Rammetto One", cursive;
 }
+@media (max-width: 992px) {
+  .link_btn a {
+    padding: 14px 20px;
+  }
+}
+@media (max-width: 768px) {
+  .link_btn a {
+    padding: 14px 10px;
+  }
+}
+@media (max-width: 560px) {
+  .link_btn a {
+    padding: 10px 10px;
+    font-size: 12px !important;
+  }
+}
 .link_btn a:hover {
   text-decoration: none;
 }
@@ -303,7 +319,7 @@ header {
     background-color: #fff;
     padding: 6px 20px;
     font-family: "Rammetto One", cursive;
-    font-size: 12px !important;
+    font-size: 8px !important;
   }
   .bi-twitter::before {
     color: #39aaff;
