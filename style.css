@@ -701,6 +701,10 @@ right connector from last child*/
   justify-content: space-between;
   color: #fff;
 }
+.couple .container a .fas {
+  color: #33d0d0;
+  font-size: 18px;
+}
 .couple .container a:hover {
   text-decoration: none;
 }
