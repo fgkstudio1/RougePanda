@@ -285,7 +285,20 @@ header {
 @media (max-width: 560px) {
   .link_btn a {
     padding: 10px 10px;
-    font-size: 12px !important;
+    font-size: 10px !important;
+  }
+  .link_btn a i.bi.bi-discord::before,
+  .link_btn a i.bi.bi-twitter::before {
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 450px) {
+  .link_btn a {
+    padding: 6px 6px;
+    font-size: 10px !important;
+  }
+  .links_section .col-4 {
+    padding: 5px;
   }
 }
 .link_btn a:hover {
@@ -317,7 +330,7 @@ header {
   }
   .link_btn a {
     background-color: #fff;
-    padding: 6px 20px;
+
     font-family: "Rammetto One", cursive;
     font-size: 8px !important;
   }
